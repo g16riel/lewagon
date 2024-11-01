@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    overflow: hidden; /* Pour s'assurer que rien ne dépasse */
+    overflow: hidden;
 }
 
 .banner::before {
@@ -19,12 +19,11 @@
     bottom: 0;
     background-image: 
         linear-gradient(-225deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.4) 50%), 
-        url(../../images/backgroundd.jpg);
+        url(../../images/background.jpg);
     background-size: cover;
     background-position: center 15%;
-    filter: blur(2px); /* Effet de flou uniquement sur l'image de fond */
-    z-index: -1; /* Place l'image derrière le texte */
-}
+    filter: blur(2px);
+    z-index: -1;
 
 .banner h1 {
     color: #ffdd57;
